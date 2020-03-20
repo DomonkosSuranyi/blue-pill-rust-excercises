@@ -1,0 +1,24 @@
+[package]
+name = "blue-pill-rust-excercises"
+version = "0.1.0"
+authors = ["Domonkos Suranyi <domonkos.suranyi@protonmail.com>"]
+edition = "2018"
+
+[dependencies.stm32f1xx-hal]
+version = "0.5.3"
+features = ["rt", "stm32f103"]
+
+[dependencies.cortex-m]
+version = "0.6.2"
+
+[dependencies.cortex-m-rt]
+version = "0.6.12"
+
+[dependencies.panic-semihosting]
+version = "0.5.3"
+
+[dependencies.nb]
+version = "0.1.2"
+
+[dependencies]
+embedded-hal = "0.2.3"
